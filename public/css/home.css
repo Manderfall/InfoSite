@@ -1,4 +1,26 @@
 html,body{
 	height:100%;
-	padding-top:35px;
+	padding-top:70px;
+	z-index:0;
+
+}
+div.container{
+	max-width:100%;
+
+}
+
+div.row.row-1{
+	display:flex;	
+	align-items:center;	
+	flex-wrap:wrap;
+
+}
+
+div.row.row-2{
+		display:flex;
+		margin:auto;
+	max-width:100%;
+}
+img{
+	postition:relative;
 }
