@@ -1,26 +1,42 @@
 html,body{
 	height:100%;
+	width:100%;
 	padding-top:70px;
 	z-index:0;
 
 }
 div.container{
 	max-width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
 
 }
 
 div.row.row-1{
 	display:flex;	
+	justify-content:center;
 	align-items:center;	
 	flex-wrap:wrap;
-
+	margin-bottom:30px;
 }
 
 div.row.row-2{
-		display:flex;
-		margin:auto;
-	max-width:100%;
+	display:flex;	
+	justify-content:center;
+	align-items:center;	
+	flex-wrap:wrap;
+	margin-bottom:30px;
 }
-img{
-	postition:relative;
+div.center{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-right:0;
+	margin-left:0;
+}
+p{
+	margin-top:20px;
+	width:75%;
 }
