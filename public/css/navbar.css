@@ -13,7 +13,7 @@ a.navbar-brand{
 	font-weight:700;
 	font-size:22px;
 	color:#FFF !important;
-	letter-spacing:.25rem;
+	letter-spacing:.18rem;
 }
 i.fas.fa-info{
 	font-size:24px;
@@ -23,4 +23,7 @@ a.nav-link{
 	font-weight:400;
 	font-size:22px;
 	color:#fff !important;
+}
+a.nav-link:hover{
+	color:#323232 !important;
 }
