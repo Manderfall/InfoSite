@@ -1,48 +1,21 @@
 div.container.about-container{
-	margin-top:100px;
+	margin-top:110px;
 	margin-bottom:30px;
 	max-width:800px;
 	font-family: 'Lato', sans-serif;
 }
-
 div.mission{
 	display:flex;
 	justify-content:center;
-	align-items:center;
-	flex-wrap:wrap;	
+	flex-wrap:wrap;
+	margin:auto;
 }
-
-div.text-center{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	flex-wrap:wrap;	
-}
-
-div.links ul{
-	margin-left:60px;
-}
-h1{
-	font-weight:700;
-}
-
-h2{
-	font-weight:700;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	flex-wrap:wrap;	
-}
-h4{
-	font-weight:700;
-	text-decoration:underline;
-}
-
 li{
 	list-style:none;
 }
-p{
-	font-weight:400;
+h4{
+	margin-right:20px;
 }
-
-
+p.about{
+	margin-right:20px;
+}

@@ -1,24 +1,25 @@
 div.container.info-container{
 	margin-top:100px;
-	maring-bottom:30px;
-	height:80%;
+	margin-bottom:30px;
+	height:100%;
 	display:flex;
 	flex-wrap:wrap;
-	
+
 }
 div.row{
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	margin:auto;
-	margin-bottom:40px;
+	margin:auto;	
 	text-align:center;
 }
-div p{
+div p.info{
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	margin:auto;
-	margin-bottom:40px;
+	margin-bottom:70px;
 	text-align:center;
+	width:75%;
+	flex-wrap:wrap;
 }
