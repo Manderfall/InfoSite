@@ -14,11 +14,11 @@ div.container{
 	justify-content:center;
 	align-items:center;
 	flex-wrap:wrap;
-	margin-top:50px;
-	margin-bottom:20px;
-
 }
-
+div.container.page-container{
+	margin-top:50px;
+	margin-bottom:30px;
+}
 div.row{
 	display:flex;	
 	justify-content:center;
@@ -26,6 +26,7 @@ div.row{
 	flex-wrap:wrap;	
 	width:100%;
 	margin-bottom:30px;
+	margin-top:30px;
 }
 
 div.center{
