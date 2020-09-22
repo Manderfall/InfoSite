@@ -36,15 +36,13 @@ const indexRoutes = require("./routes/index");
 const aboutRoutes = require("./routes/about");
 const infoRoutes = require("./routes/info");
 const contactRoutes = require("./routes/contact");
-const donateRoutes = require("./routes/donate");
-const privacyRoutes = require("./routes/privacy");
+
 
 app.use(indexRoutes);
 app.use(aboutRoutes);
 app.use(infoRoutes);
 app.use(contactRoutes);
-app.use(donateRoutes);
-app.use(privacyRoutes);
+
 // Globals ------------------------------------------------------
 const port = 3000;
 
