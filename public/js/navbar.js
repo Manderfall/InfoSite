@@ -1,10 +1,8 @@
-var myNav = document.getElementById("nav");
-
-window.onscroll = function() {
-  "use strict";
-  if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280) {
-    myNav.classList.add("scroll");
+function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
   } else {
-    myNav.classList.remove("scroll");
+    x.className = "navbar";
   }
-};
+}

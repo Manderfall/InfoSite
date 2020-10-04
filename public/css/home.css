@@ -15,8 +15,8 @@ div.container{
 	align-items:center;
 	flex-wrap:wrap;
 }
-div.container.page-container{
-	
+div.container.page-container{	
+	margin-top:60px;
 	margin-bottom:30px;
 }
 div.row{
@@ -38,6 +38,11 @@ div.center{
 }
 p.text{
 	margin-top:20px;
-	width:75%;
-	
+	width:75%;	
+}
+img{
+	margin-top:25px;
+	margin-bottom:25px;
+	width:550px;
+	height:450px;
 }

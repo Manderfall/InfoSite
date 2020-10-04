@@ -1,13 +1,12 @@
-nav.navbar.navbar-expand-sm.navbar-light.bg-light{
-	display:flex;
-	flex-wrap:nowrap;
-	justify-content:space-between;
+nav#myNavbar.navbar.navbar-expand-lg.navbar-light.bg-dark{
 	position:fixed;
 	width:100%;
 	top:0;
 	z-index:1;
 	font-family: 'Roboto', sans-serif;
 	background-color:#717171 !important;
+	padding-bottom:20px;
+	padding-top:20px;
 }
 a.navbar-brand{
 	font-weight:700;
