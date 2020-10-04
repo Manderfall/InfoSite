@@ -27,3 +27,6 @@ a.nav-link{
 a.nav-link:hover{
 	color:#323232 !important;
 }
+.scroll {
+  background-color: transparent;
+}
